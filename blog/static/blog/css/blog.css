@@ -1,11 +1,13 @@
 .page-header {
-    background-color: #C25100;
+    background: url("../image/top.jpg");
+    height: 400px;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #f4a460;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -14,12 +16,27 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+body{
+    background: linear-gradient(#05FBFF, #1D62F0 ) fixed;
+}
+
+h3, h4 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-shadow: 1px 2px 3px #808080;
+}
+
+h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ffffff;
 }
 
 .date {
-    color: #828282;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ffffff;
 }
 
 .save {
@@ -38,6 +55,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
+    font-family: 'M PLUS 1p', sans-serif;
     margin-bottom: 70px;
 }
 
